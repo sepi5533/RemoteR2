@@ -1,0 +1,8 @@
+diff a/gittest.txt b/gittest.txt	(rejected hunks)
+@@ -1 +0,3 @@
+-test
+\ No newline at end of file
++test
++test2
++test34
+\ No newline at end of file
