@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>JavaScript fetch Test</title>
+</head>
+<body>
+	<p></p>
+	<!--  syncronous program
+	
+	    The browser waits for the line to finish its work 
+	    before going on to the next line. 
+	    It has to do this because each line depends on the work done 
+	    in the preceding lines.
+	!-->
+	<input type="button" value="testButton" onclick="
+		// synchronous function
+		function makegreeting(name) {
+			return `Random number is ${name}!`;
+		}
+	
+		const max = 100;
+		const random = (max) =>  Math.floor(Math.random() * max);
+		const name = random(max)
+		const greeting = document.querySelector('p'); 
+		greeting.textContent= makegreeting(name);
+		
+		
+	"/>
+</body>
+</html>
